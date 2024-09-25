@@ -110,3 +110,5 @@ def delete_mood(request, id):
     mood.delete()
     # Kembali ke halaman awal
     return HttpResponseRedirect(reverse('main:show_main'))
+
+#beda
