@@ -17,3 +17,4 @@ urlpatterns = [
     path('delete/<uuid:id>', delete_mood, name='delete_mood'),
     path('create-mood-entry-ajax', add_mood_entry_ajax, name='add_mood_entry_ajax'),
 ]
+#
